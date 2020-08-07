@@ -24,7 +24,7 @@ If you agree with the above, type your full name in the following space along wi
 
 Implement the following classes. You can add any additional classes, fields, or methods you deem necessary to complete this assignment.
 
-For each method that you implement below, you must make at least 1 commit, so I want to see at least 3 commits.
+**For each method that you implement, you must make at least 1 commit.**
 
 ## BST.java
 
