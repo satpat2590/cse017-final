@@ -10,12 +10,23 @@ class Main {
 
     BST tree = new BST(size); 
 
-    tree.add_link(3, 4);
-    tree.add_link(1, 4);
-
+    tree.printGraph();
+    tree.insert(3, 4);
+    tree.insert(2, 4);
+    tree.insert(1, 4);
+    tree.insert(5, 4);
+    tree.insert(0, 4);
+    tree.insert(5, 7);
     tree.printGraph();
 
-    System.out.println(tree.find(4)); 
+    tree.delete(3, 4);
+    tree.delete(5, 4);
+    tree.printGraph();
+
+    System.out.println("\nWas the element found? " + tree.find(8));
+
+    tree.rebalance();
+    tree.printGraph();
 
 
   }
